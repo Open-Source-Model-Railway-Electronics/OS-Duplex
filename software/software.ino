@@ -36,13 +36,18 @@ Settings output[2] ;
 
 uint16_t beginAddress = 50 ;
 
-uint8_t newValue ;
+uint8_t newValue = ;
 
 void readDipswitches()
 {
-    static uint8_t  oldValue ;
+    static uint8_t  oldValue = 0xFF ;
+    newValue = 0 ;
 
-    for( int i = 0 ; i < nDipSwitches ; i ++ ) newValue |= ( digitalRead( dipSwitches[i] ) << i ) ;
+    for( int i = 0 ; i < nDipSwitches ; i ++ ) 
+    {
+        pinMode( dipSwitches[i], INPUT_PULLUP ) ;
+        newValue |= ( digitalRead( dipSwitches[i] ) << i ) ;
+    }
 
     if( newValue != oldValue )
     {   oldValue  = newValue ;
@@ -130,7 +135,7 @@ void calculateAddresses()
         case 0b01001:                               // double steady   slave double    S=1
         case 0b01011:                               // double steady   slave double    S=1
         case 0b01111:                               // double steady   slave single    S=1
-        default:
+        default: 
             output[0].primaryAddress   = addr++ ;
             break ;
     }
@@ -140,6 +145,12 @@ void calculateAddresses()
 }
 
 
+/* if output is steady, needs to be turned ON, so we need to store 4 states of 4 possible outputs.
+   if output is slaved, the relay need to turned on or off
+*/
+void initalizeOutputs() 
+{
+}
 
 
 void setup()
@@ -155,6 +166,7 @@ void setup()
     dcc.init( MAN_ID_DIY, 11, FLAGS_OUTPUT_ADDRESS_MODE | FLAGS_DCC_ACCESSORY_DECODER, 0 );
 
     signalTimer.set( TIMER_TOGGLE, 333 ) ;
+    initalizeOutputs() ;
 }
 
 void loop()
