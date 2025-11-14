@@ -103,16 +103,6 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 113.03) (xy 69.85 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a12494-0ab1-4576-8568-ed1d6b53ff99")
-	)
-	(bus
-		(pts
 			(xy 69.85 130.81) (xy 132.08 130.81)
 		)
 		(stroke
@@ -173,26 +163,6 @@
 	)
 	(bus
 		(pts
-			(xy 67.31 113.03) (xy 69.85 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01555a1-420b-475a-a86b-db0918a1d2ba")
-	)
-	(bus
-		(pts
-			(xy 132.08 114.3) (xy 135.89 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be186c51-0a08-472e-833d-62d8afaa2ce7")
-	)
-	(bus
-		(pts
 			(xy 132.08 130.81) (xy 132.08 123.19)
 		)
 		(stroke
@@ -250,26 +220,6 @@
 			(type default)
 		)
 		(uuid "e2f76661-ee9f-43fb-96bf-0be1f7dab94b")
-	)
-	(bus
-		(pts
-			(xy 69.85 100.33) (xy 132.08 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84d1266-83d4-4d01-90e4-3e426e4574ce")
-	)
-	(bus
-		(pts
-			(xy 132.08 100.33) (xy 132.08 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede4131b-f20f-49ef-b2d8-444f2a1bf1ca")
 	)
 	(bus
 		(pts
@@ -1278,18 +1228,8 @@
 			)
 			(uuid "aee5816b-4967-45a4-bc9f-971159eac552")
 		)
-		(pin "2{POW}" output
-			(at 135.89 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2f06142d-f894-4f9e-a806-5709ee63bc60")
-		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "2")
 				)
@@ -1338,7 +1278,7 @@
 			(uuid "fcc744fc-c999-4a0e-99c3-8f3cdb898893")
 		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "4")
 				)
@@ -1386,18 +1326,8 @@
 			)
 			(uuid "72d2913b-d199-4618-8a4d-f1af0fdd9c7a")
 		)
-		(pin "2{POW}" output
-			(at 67.31 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "eaac87ff-031a-46d1-b4a3-2829d2a6958a")
-		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "3")
 				)
@@ -1446,7 +1376,7 @@
 			(uuid "803707d4-0fcb-4aff-b02e-b5c89abf5a75")
 		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "5")
 				)
@@ -1505,7 +1435,7 @@
 			(uuid "b37298ff-0ef7-4424-a97a-140ed1399ee4")
 		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "8")
 				)
@@ -1584,7 +1514,7 @@
 			(uuid "22ed9f17-8108-4865-8307-1b3cbf04fcf4")
 		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "6")
 				)
@@ -1633,7 +1563,7 @@
 			(uuid "b2827fbb-c0e6-4b0f-b81f-4e2c7b570fa9")
 		)
 		(instances
-			(project "oneFit"
+			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
 					(page "10")
 				)

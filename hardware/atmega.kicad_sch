@@ -2260,6 +2260,10 @@
 		(uuid "f3fcf8c2-4ee6-4c68-9972-4a4bca5de028")
 	)
 	(no_connect
+		(at 158.75 143.51)
+		(uuid "406dd0d6-4ad4-43aa-9489-bf9611cb8868")
+	)
+	(no_connect
 		(at 119.38 82.55)
 		(uuid "6b643dfd-ebb7-42c9-a08b-1d710821b7cc")
 	)
@@ -2272,6 +2276,10 @@
 		(uuid "8706a07b-d6ef-41ec-93d4-a41bac483775")
 	)
 	(no_connect
+		(at 158.75 118.11)
+		(uuid "8a3ebad4-067c-43c5-8508-c2c38056b719")
+	)
+	(no_connect
 		(at 160.02 90.17)
 		(uuid "944cf0ae-7ec6-40d1-aaec-494214e8b8a7")
 	)
@@ -2282,6 +2290,14 @@
 	(no_connect
 		(at 110.49 90.17)
 		(uuid "afe99a43-1208-4baa-88fe-f8b45c5416e3")
+	)
+	(no_connect
+		(at 158.75 138.43)
+		(uuid "c9389dfa-79d3-4efe-8994-e7c50c19e173")
+	)
+	(no_connect
+		(at 158.75 140.97)
+		(uuid "ff8d83ff-b9c5-41b5-8370-25f32717cace")
 	)
 	(bus_entry
 		(at 246.38 130.81)
@@ -3437,16 +3453,6 @@
 		)
 		(uuid "f98a3845-36d1-497e-8dd1-c904c34a89f8")
 	)
-	(label "GPIO1"
-		(at 152.4 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01ea61b0-9514-4986-b7cd-120142d2c678")
-	)
 	(label "MISO"
 		(at 93.98 146.05 180)
 		(effects
@@ -3578,7 +3584,7 @@
 		(uuid "553231d5-6c46-4bb7-9e6b-150c07143465")
 	)
 	(label "2.B"
-		(at 158.75 135.89 0)
+		(at 158.75 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3657,16 +3663,6 @@
 		)
 		(uuid "71ef3278-e55f-432f-a1bd-d370c9a0ca7b")
 	)
-	(label "GPIO6"
-		(at 152.4 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76295580-e818-4ae8-992e-4231a445c0f2")
-	)
 	(label "1.B"
 		(at 218.44 96.52 0)
 		(effects
@@ -3728,7 +3724,7 @@
 		(uuid "aa2bc299-7b5a-4fbf-85e2-587b074ca339")
 	)
 	(label "2.A"
-		(at 158.75 133.35 0)
+		(at 158.75 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3748,7 +3744,7 @@
 		(uuid "b6c81e07-a522-4bf6-87e9-31387fbecd2c")
 	)
 	(label "1.B"
-		(at 158.75 128.27 0)
+		(at 158.75 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3788,7 +3784,7 @@
 		(uuid "d6a12ca9-df1b-449d-9722-8afb461f1727")
 	)
 	(label "1.A"
-		(at 158.75 125.73 0)
+		(at 158.75 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
