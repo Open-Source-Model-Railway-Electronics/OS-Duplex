@@ -103,7 +103,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 130.81) (xy 132.08 130.81)
+			(xy 69.85 101.6) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -113,7 +113,7 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 123.19) (xy 135.89 123.19)
+			(xy 132.08 123.19) (xy 137.16 123.19)
 		)
 		(stroke
 			(width 0)
@@ -123,7 +123,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 123.19) (xy 69.85 130.81)
+			(xy 69.85 123.19) (xy 69.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -163,7 +163,7 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 130.81) (xy 132.08 123.19)
+			(xy 132.08 101.6) (xy 132.08 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1188,8 +1188,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 107.95)
-		(size 15.24 20.32)
+		(at 137.16 107.95)
+		(size 13.97 20.32)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1198,9 +1198,9 @@
 		(fill
 			(color 194 194 194 1.0000)
 		)
-		(uuid "05187f9e-02b7-4d4f-ab81-0ead3ebc451f")
-		(property "Sheetname" "out"
-			(at 139.7 110.49 0)
+		(uuid "1772daea-2357-4a34-bca4-d5b0601f6a73")
+		(property "Sheetname" "in1"
+			(at 140.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,8 +1208,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "out.kicad_sch"
-			(at 135.89 128.8546 0)
+		(property "Sheetfile" "in1.kicad_sch"
+			(at 137.16 128.8546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,19 +1219,19 @@
 			)
 		)
 		(pin "1{DCC}" output
-			(at 135.89 123.19 180)
+			(at 137.16 123.19 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "aee5816b-4967-45a4-bc9f-971159eac552")
+			(uuid "edc0bd62-c8ec-496a-956b-cf0b78b3eaf9")
 		)
 		(instances
 			(project "OS-Duplex"
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0"
-					(page "2")
+					(page "7")
 				)
 			)
 		)

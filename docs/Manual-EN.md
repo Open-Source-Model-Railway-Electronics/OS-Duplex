@@ -1,3 +1,5 @@
+> 🌐 &nbsp; 🇬🇧 EN &nbsp;|&nbsp; [🇩🇪 DE](Manual-DE.md) &nbsp;|&nbsp; [🇫🇷 FR](Manual-FR.md) &nbsp;|&nbsp; [🇳🇱 NL](Manual-NL.md) &nbsp;|&nbsp; [🇪🇸 ES](Manual-ES.md) &nbsp;|&nbsp; [🇮🇹 IT](Manual-IT.md) &nbsp;|&nbsp; [🇵🇱 PL](Manual-PL.md) &nbsp;|&nbsp; [🇨🇿 CS](Manual-CS.md) &nbsp;|&nbsp; [🇩🇰 DA](Manual-DA.md) &nbsp;|&nbsp; [🇳🇴 NO](Manual-NO.md) &nbsp;|&nbsp; [🇸🇪 SV](Manual-SV.md) &nbsp;|&nbsp; [🇭🇺 HU](Manual-HU.md) &nbsp;|&nbsp; [🇵🇹 PT](Manual-PT.md)
+
 # ⚙️ OS-Duplex Decoder Manual
 
 **Dual DCC decoder for solenoids, relays and turnout motors**
@@ -49,7 +51,7 @@ The OS-Duplex requires an external DC power supply between 12 V and 18 V DC.
 
 ![](image-3.png)
 
-*Figure 3: 2 double relais modules plugged in*
+*Figure 3: 2 double relay modules plugged in*
 
 ![](image-4.png)
 
@@ -84,7 +86,7 @@ Five DIP switches define all operating modes:
 
 ### 🅱️ Output B (Secondary)
 - May run independently like A or as slave to A
-- In linked operation, B can automatically handle frog polarization; it switches the relays and point motor in a specific sequence to prevent shorts from occuring:
+- In linked operation, B can automatically handle frog polarization; it switches the relays and point motor in a specific sequence to prevent shorts from occurring:
     1. De-energize frog
     2. Switch turnout
     3. Re-energize frog with opposite polarity
@@ -101,13 +103,13 @@ This timing supports Electrofrog and Uni-frog layouts
 When the link is enabled between the outputs, Output B changes behavior depending on A’s mode:
 - If A is Single + Pulse, the decoder accepts DCC Extended commands for 4-lamp signals  
 - Both outputs act together as a miniature signal controller  
-- The Duplex has no concept of settings, aspects of pre-sets when it comes to signals. Instead we use the DCC-extended commands with which we can transmitt a value of 0 - 255 to the decoder
+- The Duplex has no concept of fixed settings, aspects or pre-sets when it comes to signals. Instead we use the DCC Extended commands with which we can transmit a value of 0–255 to the decoder.
 
-The value works in binary, 255 has a binary value of 1111 1111. The first ones tell which LEDs need to flash, the 2nd set tells if lights need to be on or off. When a light is set to flash with the first nibble, the corresponding bit in the 2nd nipple need to be a '0'. **For example, when only the first 2 light have to flash, the 3rd light is off and the the 4th light is on, the value would be 1100 0001 or 193 decimal.**
+The value works in binary. 255 has a binary value of `1111 1111`. The high nibble (first 4 bits) tells which LEDs should flash; the low nibble (last 4 bits) tells which lights should be on or off. When a light is set to flash via the high nibble, the corresponding bit in the low nibble must be `0`. **For example, when only the first two lights should flash, the third light is off, and the fourth light is on: the value is `1100 0001` = 193 decimal.**
 
 ![ ](image-7.png)
 
-The computer program that you use for your model railway layout need to link the signal's aspects and DCC EXT values. You need to write down the binary value to match with your desired aspect and then calculate the decimal value. You can make use of window's native calculator tool. Put the calculator in Programmer mode first.
+The software you use for your model railway layout needs to link the signal aspects to DCC Extended values. Write down the binary value for each desired aspect and then calculate the decimal equivalent. Windows' built-in Calculator app can help — switch it to **Programmer** mode first.
 
 ![](image-8.png)
 

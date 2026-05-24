@@ -394,102 +394,6 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "pwr"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "power:VCC"
 			(power)
 			(pin_numbers hide)
@@ -611,18 +515,6 @@
 			)
 		)
 	)
-	(junction
-		(at 135.89 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "425437a4-cca9-44f1-b93d-17c7ed2510db")
-	)
-	(junction
-		(at 130.81 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e195d7e4-00f1-4b79-a557-77f680616b7d")
-	)
 	(bus_entry
 		(at 129.54 123.19)
 		(size -2.54 -2.54)
@@ -650,16 +542,6 @@
 			(type default)
 		)
 		(uuid "198dc745-0e03-47c1-9f0c-650c0c13dd2b")
-	)
-	(wire
-		(pts
-			(xy 130.81 102.87) (xy 130.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26008af5-4eac-416b-ba6b-b0c2a5730c8d")
 	)
 	(wire
 		(pts
@@ -701,16 +583,6 @@
 		)
 		(uuid "6d8a3e68-9958-482e-9e99-0aa664f464cc")
 	)
-	(wire
-		(pts
-			(xy 135.89 106.68) (xy 144.78 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d3adb1-39cb-4042-9eac-0c3afc76d7c6")
-	)
 	(bus
 		(pts
 			(xy 127 123.19) (xy 129.54 123.19)
@@ -730,16 +602,6 @@
 			(type default)
 		)
 		(uuid "cae42c88-f332-4619-b157-3a99f1abaa9e")
-	)
-	(wire
-		(pts
-			(xy 144.78 106.68) (xy 144.78 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbee968d-1530-43b5-ad6a-527a4df8b665")
 	)
 	(bus
 		(pts
@@ -823,71 +685,6 @@
 		(uuid "a3b3f605-73a9-4763-8274-715dd439f443")
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 144.78 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f684842-d8b5-4d3b-8edb-87f202a7a367")
-		(property "Reference" "#FLG0301"
-			(at 144.78 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ece7203-e466-4cff-9a01-2468c0a2ee16")
-		)
-		(instances
-			(project "oneFit"
-				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0/51c5c96b-4881-4f86-93e6-5d523794193d"
-					(reference "#FLG0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 130.81 109.22 0)
 		(unit 1)
@@ -897,7 +694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5610e4c8-223e-4714-a538-bdf3696a0ee6")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0702"
 			(at 130.81 115.57 0)
 			(effects
 				(font
@@ -942,12 +739,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "82219b76-caf5-4485-97bf-c443fb8f21a4")
+			(uuid "76cf06c9-5776-4b45-b80a-d0783564d144")
 		)
 		(instances
-			(project "oneFit"
+			(project ""
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0/51c5c96b-4881-4f86-93e6-5d523794193d"
-					(reference "#PWR0302")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -962,7 +759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a92a18f3-fe23-4415-b8d2-6ee4e1a00a2d")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0703"
 			(at 135.89 106.68 0)
 			(effects
 				(font
@@ -1007,77 +804,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd5e36d0-8d8b-422e-a5b8-ea7d68d66ed7")
+			(uuid "9f2cc432-82e6-4ce5-bef8-963453360c18")
 		)
 		(instances
-			(project "oneFit"
+			(project ""
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0/51c5c96b-4881-4f86-93e6-5d523794193d"
-					(reference "#PWR0301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 130.81 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd4c484a-28f1-4ecd-889f-ee0f79959066")
-		(property "Reference" "#FLG0302"
-			(at 130.81 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 127 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3c84723-f7d4-4967-8198-64b2721208c6")
-		)
-		(instances
-			(project "oneFit"
-				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0/51c5c96b-4881-4f86-93e6-5d523794193d"
-					(reference "#FLG0302")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -1146,19 +878,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "fed024fa-d441-4567-bf18-48c6ca49b30e")
+			(uuid "8729ff69-4534-440d-973f-2a3261491913")
 		)
 		(pin "2"
-			(uuid "7b4365d4-b824-4370-a167-51ba6bad3303")
+			(uuid "d6355e5f-214a-40c1-96de-ece853c99e0e")
 		)
 		(pin "3"
-			(uuid "f07c8ad9-c9c1-4525-b7a5-b99c530c8aec")
+			(uuid "0bdcce32-0728-452d-9bcb-8ea9f53dab75")
 		)
 		(pin "4"
-			(uuid "5f761468-da7b-473e-b543-72c6f036e944")
+			(uuid "1f9c9cc2-602f-4861-b408-966f201ee845")
 		)
 		(instances
-			(project "oneFit"
+			(project ""
 				(path "/5298ac75-044e-4260-bbaf-3f2b608479b0/51c5c96b-4881-4f86-93e6-5d523794193d"
 					(reference "J62")
 					(unit 1)

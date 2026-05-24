@@ -458,7 +458,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "oneFit.kicad_pro",
+    "filename": "OS-Duplex.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -607,10 +607,6 @@
       "Root"
     ],
     [
-      "05187f9e-02b7-4d4f-ab81-0ead3ebc451f",
-      "out"
-    ],
-    [
       "51c5c96b-4881-4f86-93e6-5d523794193d",
       "in"
     ],
@@ -625,6 +621,10 @@
     [
       "932012e5-bc60-44fd-8381-2bfa7ff981b4",
       "atmega"
+    ],
+    [
+      "1772daea-2357-4a34-bca4-d5b0601f6a73",
+      "in1"
     ],
     [
       "923620be-a04f-4d7d-b597-7aabb577e6a6",
